@@ -4,14 +4,23 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
     "mysql": "^2.16.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neuromancer93/burger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neuromancer93/burger/issues"
+  },
+  "homepage": "https://github.com/Neuromancer93/burger#readme"
 }
