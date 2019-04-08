@@ -2,9 +2,8 @@
 const mysql = require("mysql");
 
 const connection = mysql.createConnection({
-  // port: 3306,
+  port: 3306,
   user: "root",
-  socketPath: 'mysql-socket-path',
   password: "mysql88",
   database: "burger_db"
 });
